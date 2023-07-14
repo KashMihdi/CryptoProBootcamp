@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		FD2E10A22A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E10A12A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift */; };
 		FD2E10A42A61DC1B00EC1BE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E10A32A61DC1B00EC1BE1 /* ContentView.swift */; };
-		FD2E10A62A61DC1C00EC1BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2E10A52A61DC1C00EC1BE1 /* Assets.xcassets */; };
 		FD2E10A92A61DC1C00EC1BE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2E10A82A61DC1C00EC1BE1 /* Preview Assets.xcassets */; };
+		FD2E10B02A61DE2200EC1BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2E10AF2A61DE2200EC1BE1 /* Assets.xcassets */; };
+		FD2E10B32A61DFE700EC1BE1 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E10B22A61DFE700EC1BE1 /* Color + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD2E109E2A61DC1B00EC1BE1 /* CryptoProBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoProBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2E10A12A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoProBootcampApp.swift; sourceTree = "<group>"; };
 		FD2E10A32A61DC1B00EC1BE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FD2E10A52A61DC1C00EC1BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2E10A82A61DC1C00EC1BE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD2E10AF2A61DE2200EC1BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FD2E10B22A61DFE700EC1BE1 /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				FD2E10A32A61DC1B00EC1BE1 /* ContentView.swift */,
+				FD2E10B12A61DFD300EC1BE1 /* Extensions */,
 				FD2E10A72A61DC1C00EC1BE1 /* Preview Content */,
 				FD2E10A12A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift */,
 			);
@@ -61,10 +64,18 @@
 		FD2E10A72A61DC1C00EC1BE1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FD2E10A52A61DC1C00EC1BE1 /* Assets.xcassets */,
+				FD2E10AF2A61DE2200EC1BE1 /* Assets.xcassets */,
 				FD2E10A82A61DC1C00EC1BE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD2E10B12A61DFD300EC1BE1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD2E10B22A61DFE700EC1BE1 /* Color + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2E10A92A61DC1C00EC1BE1 /* Preview Assets.xcassets in Resources */,
-				FD2E10A62A61DC1C00EC1BE1 /* Assets.xcassets in Resources */,
+				FD2E10B02A61DE2200EC1BE1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				FD2E10A42A61DC1B00EC1BE1 /* ContentView.swift in Sources */,
 				FD2E10A22A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift in Sources */,
+				FD2E10B32A61DFE700EC1BE1 /* Color + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
