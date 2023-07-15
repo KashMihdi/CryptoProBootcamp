@@ -18,6 +18,7 @@
 		FD2E10C62A6286C600EC1BE1 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E10C52A6286C600EC1BE1 /* CoinRowView.swift */; };
 		FD2E10C82A62886500EC1BE1 /* PreviewProvider + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E10C72A62886500EC1BE1 /* PreviewProvider + Extension.swift */; };
 		FD2E10CA2A628D4500EC1BE1 /* Double + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E10C92A628D4500EC1BE1 /* Double + Extension.swift */; };
+		FD59194B2A62BB1400A20087 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59194A2A62BB1400A20087 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		FD2E10C52A6286C600EC1BE1 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		FD2E10C72A62886500EC1BE1 /* PreviewProvider + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewProvider + Extension.swift"; sourceTree = "<group>"; };
 		FD2E10C92A628D4500EC1BE1 /* Double + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extension.swift"; sourceTree = "<group>"; };
+		FD59194A2A62BB1400A20087 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		FD2E10952A61DC1B00EC1BE1 = {
 			isa = PBXGroup;
 			children = (
+				FD2E10A12A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift */,
 				FD2E10A02A61DC1B00EC1BE1 /* CryptoProBootcamp */,
 				FD2E109F2A61DC1B00EC1BE1 /* Products */,
 			);
@@ -69,7 +72,6 @@
 				FD2E10C02A6279B700EC1BE1 /* Models */,
 				FD2E10B42A61E6F700EC1BE1 /* Core */,
 				FD2E10A72A61DC1C00EC1BE1 /* Preview Content */,
-				FD2E10A12A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift */,
 			);
 			path = CryptoProBootcamp;
 			sourceTree = "<group>";
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				FD2E10B62A61E71800EC1BE1 /* ViewModels */,
+				FD2E10B72A61E72500EC1BE1 /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -113,7 +116,7 @@
 		FD2E10B62A61E71800EC1BE1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				FD2E10B72A61E72500EC1BE1 /* Views */,
+				FD59194A2A62BB1400A20087 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				FD2E10B92A61E74600EC1BE1 /* HomeView.swift in Sources */,
 				FD2E10A22A61DC1B00EC1BE1 /* CryptoProBootcampApp.swift in Sources */,
 				FD2E10BD2A61E94E00EC1BE1 /* CircleButtonView.swift in Sources */,
+				FD59194B2A62BB1400A20087 /* HomeViewModel.swift in Sources */,
 				FD2E10C82A62886500EC1BE1 /* PreviewProvider + Extension.swift in Sources */,
 				FD2E10CA2A628D4500EC1BE1 /* Double + Extension.swift in Sources */,
 				FD2E10B32A61DFE700EC1BE1 /* Color + Extension.swift in Sources */,
