@@ -11,7 +11,10 @@ import SwiftUI
 struct CryptoProBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                HomeView()
+                    .toolbar(.hidden, for: .navigationBar)
+            }
         }
     }
 }
