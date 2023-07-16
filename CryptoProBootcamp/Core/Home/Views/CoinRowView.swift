@@ -35,6 +35,22 @@ extension CoinRowView {
                 .font(.caption)
                 .foregroundColor(.theme.secondaryText)
                 .frame(minWidth: 30)
+            /*
+            AsyncImage(url: URL(string: coin.image)) { phase in
+                switch phase {
+                case .success(let image): // само изображение
+                    image.resizable().scaledToFit().frame(width: 30, height: 30)
+                case .empty: // кейс отвечающий за знак загрузки
+                    ProgressView()
+                case .failure(_): // если изображение не загрузилось
+                    Image(systemName: "questionmark")
+                        .font(.headline)
+                default:
+                    Image(systemName: "questionmark")
+                        .font(.headline)
+                }
+            }
+            */
             Circle()
                 .frame(width: 30, height: 30)
             Text(coin.symbol.uppercased())
