@@ -22,6 +22,9 @@ struct HomeView: View {
                 // navigation bar
                 homeHeader
                 
+                // statistics view
+                HomeStatsView(showPortfolio: $showPortfolio)
+                
                 // search bar
                 SearchBarView(searchText: $vm.searchText)
                 
