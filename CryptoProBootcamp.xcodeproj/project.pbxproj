@@ -24,6 +24,7 @@
 		FD5371BD2A64419000782A2B /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5371BC2A64419000782A2B /* CoinImageViewModel.swift */; };
 		FD59194B2A62BB1400A20087 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59194A2A62BB1400A20087 /* HomeViewModel.swift */; };
 		FD59194E2A62C62F00A20087 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59194D2A62C62F00A20087 /* CoinDataService.swift */; };
+		FDF5202C2A685BD100671E37 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF5202B2A685BD100671E37 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		FD5371BC2A64419000782A2B /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		FD59194A2A62BB1400A20087 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		FD59194D2A62C62F00A20087 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		FDF5202B2A685BD100671E37 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				FD5371B32A64316E00782A2B /* NetworkingManager.swift */,
+				FDF5202B2A685BD100671E37 /* LocalFileManager.swift */,
 			);
 			path = Utilites;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				FD2E10BD2A61E94E00EC1BE1 /* CircleButtonView.swift in Sources */,
 				FD59194B2A62BB1400A20087 /* HomeViewModel.swift in Sources */,
 				FD2E10C82A62886500EC1BE1 /* PreviewProvider + Extension.swift in Sources */,
+				FDF5202C2A685BD100671E37 /* LocalFileManager.swift in Sources */,
 				FD2E10CA2A628D4500EC1BE1 /* Double + Extension.swift in Sources */,
 				FD2E10B32A61DFE700EC1BE1 /* Color + Extension.swift in Sources */,
 				FD2E10C42A627A1E00EC1BE1 /* CoinModel.swift in Sources */,
