@@ -22,6 +22,9 @@ struct HomeView: View {
                 // navigation bar
                 homeHeader
                 
+                // search bar
+                SearchBarView(searchText: $vm.searchText)
+                
                 // list header
                 columnTitles
                 
